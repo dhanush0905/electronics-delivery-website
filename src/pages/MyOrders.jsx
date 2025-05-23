@@ -20,7 +20,7 @@ const MyOrders = () => {
         <div className='w-16 h-0.5 bg-primary rounded-full'>
         </div>
         {myOrders.map((order,index)=>(
-          <div>
+          <div className=''>
             <p>
               <span>OrderId:{order._id}</span>
               <span>Payment:{order.paymentType}</span>
