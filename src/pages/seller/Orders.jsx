@@ -60,7 +60,7 @@ const Orders = () => {
                     <p className="font-medium text-lg my-auto">
                     {currency}{order.amount}</p>
 
-                        
+                        //DETAILS
                     <div className="flex flex-col text-sm md:text-base text-black/60">
                         <p>Method: {order.paymentType}</p>
                         <p>Date: {new Date(order.createdAt).toLocaleDateString()}</p>
